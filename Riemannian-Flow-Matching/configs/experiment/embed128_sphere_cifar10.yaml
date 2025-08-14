@@ -1,0 +1,15 @@
+data: embed128_sphere_cifar10
+embed128_csv_path: /root/autodl-tmp/mapper-CIFAR10/ckpt/cifar10_train_latents.csv
+
+use_wandb: False
+
+model:
+  d_model: 256
+  num_layers: 4
+  atol: 1e-5
+  rtol: 1e-5
+
+optim:
+  batch_size: 256
+  lr: 5e-5
+  wd: 1e-4

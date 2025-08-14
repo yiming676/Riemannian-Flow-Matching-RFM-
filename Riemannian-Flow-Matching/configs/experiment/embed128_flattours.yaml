@@ -1,0 +1,7 @@
+data: embed128_flattours
+embed128_path: /root/autodl-tmp/mapper/test_embed128.csv
+val_path:   /root/autodl-tmp/mapper/test_embed128.csv
+dim: 128
+optim:
+  lr: 1e-4
+  num_iterations: 20000

@@ -1,0 +1,7 @@
+data: embed128_poincare
+embed128_csv_path: /root/autodl-tmp/mapper/test_embed128.csv
+
+dim: 128
+optim:
+  lr: 1e-5
+  num_iterations: 50000

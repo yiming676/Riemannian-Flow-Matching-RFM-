@@ -1,0 +1,14 @@
+# configs/train_stacked_mnist.yaml
+defaults:
+  - train
+
+data: stacked_mnist_sphere
+stacked_mnist_csv_path: /path/to/your/sphere_data.csv
+
+model:
+  d_model: 1024
+  num_layers: 12  # 128维球面需要更大的模型
+
+optim:
+  num_iterations: 200000
+  batch_size: 512
